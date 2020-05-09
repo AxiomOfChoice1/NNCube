@@ -11,6 +11,7 @@ MagicCube was used to show an interactive cube on matplotlib. Buttons that were 
 The structure of the neural network is:
 - 54 input nodes
 - 12 output nodes
+
 The hidden nodes are optional and making a nn with some is available. The input is a vector that represents the faces of the Rubik's Cube in the following order, Right, Up, Left, Front, Back, & Down, represented each by a number 1 - 5 and is normalized 0 - 1. The output is a vector that represents that move of either R, R', U, U', L, L', F, F', B, B', D, or D' in that order. So far it has above 50% accuracy.
 
 **Libraries Used**
